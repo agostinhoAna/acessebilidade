@@ -41,3 +41,45 @@
         display: block;
         transform: translate(-50, -50%);
     }
+
+    .dialognewsletter-titulo {
+        font-size: 1.8em;
+        line-height: 1;
+
+    }
+
+    .dialognewsletter-texto {
+      font-size: 1em;
+      margin-bottom: 1.5em;  
+      margin-top: 1em;
+      font-weight: normal;
+    }
+
+    .dialognewsletter-label {
+     position: absolute;
+     z-index: -1;
+     left: -9999px;
+    }
+
+    .dialognewsletter-campo {
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #5e5e5e;
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    min-width: 245px;
+    }
+    
+   .dialognewsletter-btn {
+    vertical-align: top ;
+    text-indent: -9999px;
+    border-radius: 8px;
+    border: 1px solid #FF1242;
+    padding: 8px;
+    width: 100%;
+    height: 3.1em;
+    background: url(../assencibilidade/img/validacao-erro.png) no-repeat center;
+    transition: .2s ease-in;
+   } 
