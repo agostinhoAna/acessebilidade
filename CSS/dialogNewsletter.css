@@ -83,3 +83,72 @@
     background: url(../assencibilidade/img/validacao-erro.png) no-repeat center;
     transition: .2s ease-in;
    } 
+
+ .dialognewsletter-btn:hover,
+ .dialognewsletter-btn:focus {
+    background-color: #EB5757;
+    cursor: pointer;
+    background-image: url(../assencibilidade/img/email-hover.png);
+ }
+
+
+ .dialognewsletter-fechar{
+    position: absolute;
+    background-color: transparent;
+    transform: translate(50%, 50%) scale(1.4);
+    top: -5px;
+    right: 25px;
+    width: 32px;
+    height: 32px;
+    border: 0 ;
+    border: 1px solid;
+    overflow: hidden;
+    color: transparent;
+    font-size: 0;
+ }
+
+ .dialognewsletter-fechar::before {
+    content: 'x';
+    color: #666;
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+
+ .dialognewsletter-fechar:hover:before,
+ .dialognewsletter-fechar:focus::before{
+    color: #ce3434;
+    cursor: pointer;
+ }
+
+
+ @media (min-width:830px) {
+  .dialognewsletter-body {
+    width: 533px;
+  }
+   .dialognewsletter-form {
+    display: flex;
+    flex-wrap: nowrap;
+   }
+   .dialognewsletter-campo {
+    flex-basis: 80%;
+   }
+
+
+  .dialognewsletter-campo {
+    flex-basis: 80%;
+  }
+
+  .dialognewsletter-btn {
+    flex-basis: 20%;
+    height: 3.1em;
+  }
+}
+
